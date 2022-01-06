@@ -1,0 +1,21 @@
+header {
+    background-color: $color1!important;
+    color: black !important;
+    text-align: center !important;
+    & h1 {
+        animation-duration: 3s !important;
+        animation-name: aparecer !important;
+        animation-delay: 5s !important;
+        animation-iteration-count: infinite !important;
+        font-family: 'Cormorant Garamond', serif !important;
+        font-size: 20px !important;
+        }
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+        
+            100% {
+                opacity: 1;
+            }}
+}

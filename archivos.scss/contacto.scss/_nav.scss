@@ -1,0 +1,22 @@
+ /* nav */
+
+a{ 
+    text-decoration: none!important;
+    color: $color2!important;
+    padding:  20px!important;
+    font-size: 20px!important;
+    text-align: center!important;
+    font-family:$font1!important;
+    }
+#Birkin{
+    font-size: 30px!important;
+    padding-top: 11px!important;
+    font-family: $font1!important;
+}    
+a:hover{
+    color:$color3!important;
+    }
+.dropdown-item{
+    font-family: $font1!important;
+    margin: auto!important;
+}    

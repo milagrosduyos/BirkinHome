@@ -1,0 +1,21 @@
+  /* footer */
+footer {
+    background-color: $color1!important;
+    padding-top: 10px !important;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    color: $color2 !important;
+    padding-top: 30px !important;
+    & h2 {
+        font-family: $font1 !important;
+        font-size: 15px !important;
+        padding-bottom: 10px !important;
+        font-weight: auto !important;
+    }
+    & p {
+        font-size: 13px !important;
+        padding: 1px !important;
+    }
+}

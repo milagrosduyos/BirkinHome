@@ -1,22 +1,24 @@
  /* nav */
-
-a{ 
-    text-decoration: none!important;
-    color: $color2!important;
-    padding:  20px!important;
-    font-size: 20px!important;
-    text-align: center!important;
-    font-family:$font1!important;
+nav {
+    & a {
+        text-decoration: none !important;
+        color: black !important;
+        padding: 20px !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        font-family: "Cormorant Garamond", serif !important;
     }
-#Birkin{
-    font-size: 30px!important;
-    padding-top: 11px!important;
-    font-family: $font1!important;
-}    
-a:hover{
-    color:$color3!important;
+    & #Birkin {
+        font-size: 30px !important;
+        padding-top: 11px !important;
+        font-family: "Cormorant Garamond", serif !important;
+        font-weight: bold;
     }
-.dropdown-item{
-    font-family: $font1!important;
-    margin: auto!important;
-}    
+    & a:hover {
+        color: rgb(146, 127, 90) !important;
+    }
+    & .dropdown-item {
+        font-family: "Cormorant Garamond", serif !important;
+        margin: auto !important;
+    }
+}

@@ -37,7 +37,7 @@ header h1 {
 }
 
 /* nav */
-a {
+nav a {
   text-decoration: none !important;
   color: black !important;
   padding: 20px !important;
@@ -46,54 +46,69 @@ a {
   font-family: "Cormorant Garamond", serif !important;
 }
 
-#Birkin {
+nav #Birkin {
   font-size: 30px !important;
   padding-top: 11px !important;
   font-family: "Cormorant Garamond", serif !important;
+  font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
   color: #927f5a !important;
 }
 
-.dropdown-item {
+nav .dropdown-item {
   font-family: "Cormorant Garamond", serif !important;
   margin: auto !important;
 }
 
 /* main */
+/*variables*/
 h3 {
   text-align: center;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 30px !important;
-  background-color: #e7e0d5;
+  background-color: #dad1bf;
   margin-top: 10px;
   padding: 5px;
 }
 
 /* article */
-.form {
+article .mapa {
+  float: left;
+}
+
+article .form {
+  float: left;
+  width: 70%;
   padding: 50px;
-  text-align: center;
+  line-height: 10px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: -ms-grid;
-  display: grid;
-  line-height: 10px;
+  padding-top: 15px;
+  background-color: whitesmoke;
 }
 
-.boton {
-  background-color: #aeb1a5;
+article .control {
+  width: 100%;
+}
+
+article .boton {
+  background-color: #837c6d;
   -webkit-box-sizing: 2px;
           box-sizing: 2px;
   width: 100px;
   line-height: 25px;
+  padding: 5px;
 }
 
-h4 {
-  font-size: 15px;
-  font-family: 'Cormorant Garamond', serif;
+article h4 {
+  font-size: 1rem;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* footer */
@@ -121,7 +136,18 @@ footer h2 {
 }
 
 footer p {
-  font-size: 13px !important;
-  padding: 1px !important;
+  font-size: 16px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+footer a {
+  color: black;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=contacto.css.map */

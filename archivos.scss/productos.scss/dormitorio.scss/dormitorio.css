@@ -14,7 +14,7 @@ header h1 {
           animation-delay: 5s !important;
   -webkit-animation-iteration-count: infinite !important;
           animation-iteration-count: infinite !important;
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: "Cormorant Garamond", serif !important;
   font-size: 20px !important;
 }
 
@@ -37,7 +37,7 @@ header h1 {
 }
 
 /* nav */
-a {
+nav a {
   text-decoration: none !important;
   color: black !important;
   padding: 20px !important;
@@ -46,26 +46,34 @@ a {
   font-family: "Cormorant Garamond", serif !important;
 }
 
-#Birkin {
+nav #Birkin {
   font-size: 30px !important;
   padding-top: 11px !important;
   font-family: "Cormorant Garamond", serif !important;
+  font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
   color: #927f5a !important;
 }
 
-.dropdown-item {
+nav .dropdown-item {
   font-family: "Cormorant Garamond", serif !important;
   margin: auto !important;
 }
 
 /* section */
+section .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
 section h3 {
   text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  background-color: #e7e0d5;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #dad1bf;
   margin-top: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -78,6 +86,10 @@ section #dormitorio {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
+}
+
+section #dormitorio:hover {
+  opacity: 0.7;
 }
 
 /* footer */
@@ -98,14 +110,25 @@ footer {
 }
 
 footer h2 {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: "Cormorant Garamond", serif !important;
   font-size: 15px !important;
   padding-bottom: 10px !important;
   font-weight: auto !important;
 }
 
 footer p {
-  font-size: 13px !important;
-  padding: 1px !important;
+  font-size: 16px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+footer a {
+  color: black;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=dormitorio.css.map */

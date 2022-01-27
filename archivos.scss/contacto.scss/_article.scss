@@ -1,18 +1,31 @@
 /* article */
-.form{
-    padding: 50px;
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    line-height: 10px;
-}
-.boton{
-    background-color: rgb(174, 177, 165);
-    box-sizing: 2px;
-    width: 100px;
-    line-height: 25px;
-}
-h4{
-    font-size: 15px;
-    font-family: $font1;
+article {
+    .mapa {
+        float: left;
+    }
+    .form {
+        float: left;
+        width: 70%;
+        padding: 50px;
+        line-height: 10px;
+        background-color: white;
+        display: grid;
+        justify-content: center;
+        padding-top: 15px;
+        background-color: whitesmoke;
+    }
+    .control {
+        width: 100%;
+    }
+    .boton {
+        background-color: rgb(131, 124, 109);
+        box-sizing: 2px;
+        width: 100px;
+        line-height: 25px;
+        padding: 5px;
+    }
+    h4 {
+        font-size: 1rem;
+        font-family: "Cormorant Garamond", serif;
+    }
 }

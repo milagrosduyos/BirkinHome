@@ -1,16 +1,25 @@
   /* section */
 section {
+    
+    & .container {
+        display: grid;
+        grid-template-columns: auto auto; 
+    }
+    & h3 {
+        text-align: center;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px !important;
+        background-color: rgb(218, 209, 191);
+        margin-bottom: 30px !important;
+        margin-top: 10px !important;
+    }
     & #cocina {
         display: flex;
         justify-content: center;
         margin: auto;
+        &:hover{
+            opacity: 0.7;
+        }
     }
-    & h3 {
-        text-align: center;
-        font-family: $font1;
-        font-size: 30px !important;
-        background-color: $color1;
-        margin-bottom: 30px !important;
-        margin-top: 10px !important;
-    }
+    
 }

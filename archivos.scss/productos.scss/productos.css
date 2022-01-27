@@ -1,75 +1,132 @@
-*{ margin: 0; 
-    padding: 0;}
 /*header  */
-header{
-    background-color: rgb(218, 209, 191)!important;
-    color: black!important;
-    text-align: center!important;
-    }   
-    h1{
-        animation-duration: 3s!important;
-        animation-name: aparecer!important;
-        animation-delay: 5s!important;
-        animation-iteration-count: infinite!important;
-        font-family: 'Cormorant Garamond', serif!important;
-        font-size: 20px!important;
-    }
-    @keyframes aparecer {
-        0%{opacity: 0;}
-        100% { opacity: 1;}
-    }   
-    /* nav */
+/*variables*/
+header {
+  background-color: #dad1bf !important;
+  color: black !important;
+  text-align: center !important;
+}
 
-    a{ text-decoration: none!important;
-        color: black!important;
-        padding:  20px!important;
-        font-size: 20px!important;
-        text-align: center!important;
-        font-family: 'Cormorant Garamond', serif!important;
-        }
-    #Birkin{
-        font-size: 30px!important;
-        padding-top: 11px!important;
-        font-family: 'Cormorant Garamond', serif!important;
-    }    
-    a:hover{
-        color:rgb(146, 127, 90)!important;
-        }
-    .dropdown-item{
-        font-family: 'Cormorant Garamond', serif!important;
-        margin: auto!important;
-    }    
-    /* main */
+header h1 {
+  -webkit-animation-duration: 3s !important;
+          animation-duration: 3s !important;
+  -webkit-animation-name: aparecer !important;
+          animation-name: aparecer !important;
+  -webkit-animation-delay: 5s !important;
+          animation-delay: 5s !important;
+  -webkit-animation-iteration-count: infinite !important;
+          animation-iteration-count: infinite !important;
+  font-family: "Cormorant Garamond", serif !important;
+  font-size: 20px !important;
+}
 
-    h3{
-        text-align: center;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 30px!important;
-        background-color: rgb(231, 224, 213);
-    }
-    #living{ height: 400px; width: 400px!important;}
-    #dormitorio{ height: 400px; width: 400px!important;}
-    #cocina{ height: 400px; width: 400px!important;}
-    #organizadores{ height: 400px; width: 400px!important;}
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-    /* footer */
-    footer{
-        background-color: rgb(218, 209, 191)!important;
-        padding-top: 10px!important;
-        display: grid!important;
-        grid-template-columns: auto auto!important;
-        display: flex!important;
-        justify-content: space-around!important;
-        color: black!important;
-        padding-top: 30px!important;
-    }
-    h2{
-        font-family: 'Cormorant Garamond', serif!important;
-        font-size: 15px!important;
-        padding-bottom: 10px!important;
-        font-weight: auto!important;
-    }
-    p{
-        font-size: 13px!important;
-        padding: 1px!important;
-    }
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* nav */
+nav a {
+  text-decoration: none !important;
+  color: black !important;
+  padding: 20px !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  font-family: "Cormorant Garamond", serif !important;
+}
+
+nav #Birkin {
+  font-size: 30px !important;
+  padding-top: 11px !important;
+  font-family: "Cormorant Garamond", serif !important;
+}
+
+nav a:hover {
+  color: #927f5a !important;
+}
+
+nav .dropdown-item {
+  font-family: "Cormorant Garamond", serif !important;
+  margin: auto !important;
+}
+
+/* main */
+h3 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px !important;
+  background-color: #dad1bf;
+}
+
+#living {
+  height: 400px;
+  width: 400px !important;
+}
+
+#dormitorio {
+  height: 400px;
+  width: 400px !important;
+}
+
+#cocina {
+  height: 400px;
+  width: 400px !important;
+}
+
+#organizadores {
+  height: 400px;
+  width: 400px !important;
+}
+
+/* footer */
+footer {
+  background-color: #dad1bf !important;
+  padding-top: 10px !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: auto auto !important;
+      grid-template-columns: auto auto !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  color: black !important;
+  padding-top: 30px !important;
+}
+
+footer h2 {
+  font-family: "Cormorant Garamond", serif !important;
+  font-size: 15px !important;
+  padding-bottom: 10px !important;
+  font-weight: auto !important;
+}
+
+footer p {
+  font-size: 16px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+footer a {
+  color: black;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=productos.css.map */

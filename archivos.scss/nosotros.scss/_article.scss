@@ -1,6 +1,14 @@
     /* article */
-    article { 
+article { 
         padding:30px;
         justify-content: center;
         margin: auto;
+    & h3{
+        width: 100%;
+        text-align: center;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 20px !important;
+        background-color: rgb(218, 209, 191);
+        margin-top: 20px;
+    }    
 }

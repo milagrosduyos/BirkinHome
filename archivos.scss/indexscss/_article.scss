@@ -7,10 +7,21 @@ article {
     & h3 {
         width: 100%;
         text-align: center;
-        font-family: $font1;
+        font-family: "Cormorant Garamond", serif;
         font-size: 20px !important;
-        background-color: $color1;
+        background-color: rgb(218, 209, 191);
         margin-top: 20px;
     }
+    & .container{
+        display: grid !important;
+        grid-template-columns: auto auto!important;
+    }
+    & #destacados {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
 }
-

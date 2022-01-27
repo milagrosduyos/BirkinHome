@@ -1,17 +1,25 @@
      /* article */
     
-    article {
+article {
+        height: 700px;
     & h3{
         width: 100%;
         text-align: center;
-        font-family: $font1;
-        font-size: 20px!important;
-        background-color: $color1;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px!important;
+        background-color: rgb(218, 209, 191);
         margin-top: 20px!important;
     }
-    & #destacados{
+    & .container{
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    & #promo {
         display: flex;
-        align-content: center;
+        justify-content: center;
         margin: auto;
     }
 }
+

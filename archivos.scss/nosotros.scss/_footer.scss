@@ -1,20 +1,25 @@
   /* footer */
-footer{
-    background-color: $color1!important;
-    padding-top: 10px!important;
-    display: grid!important;
-    grid-template-columns: auto auto!important;
-    display: flex!important;
-    justify-content: space-around!important;
-    padding-top: 30px!important;
-    & h2{
-        font-family: $font1!important;
-        font-size: 15px!important;
-        padding-bottom: 10px!important;
-        font-weight: auto!important;
-}
-    & p{
-        font-size: 13px!important;
-        padding: 1px!important;
+footer {
+  background-color: rgb(218, 209, 191) !important;
+  padding-top: 10px !important;
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  padding-top: 30px !important;
+  & h2 {
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 15px !important;
+    padding-bottom: 10px !important;
+    font-weight: auto !important;
+  }
+  & p {
+    font-size: 16px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  & a{
+    color: black;
+    font-size: 18px;
+        font-family: "Cormorant Garamond", serif;
 }
 }

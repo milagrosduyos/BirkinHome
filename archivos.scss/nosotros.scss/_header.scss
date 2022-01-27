@@ -1,13 +1,13 @@
 header {
-    background-color: $color1!important;
-    color: $color2!important;
+    background-color: rgb(218, 209, 191)!important;
+    color: black!important;
     text-align: center !important;
     & h1 {
         animation-duration: 3s !important;
         animation-name: aparecer !important;
         animation-delay: 5s !important;
         animation-iteration-count: infinite !important;
-        font-family:$font1;
+        font-family:"Cormorant Garamond", serif;
         font-size: 20px !important;
         }
         @keyframes aparecer {
